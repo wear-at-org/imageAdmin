@@ -1,0 +1,93 @@
+.file-input {
+  display: none;
+}
+#root {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 50px;
+}
+#cs {
+  display: none;
+}
+.wrapper {
+}
+.aa {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+}
+
+.App {
+  position: relative;
+}
+
+.right-content {
+  position: fixed;
+}
+
+.color-wrap {
+  margin-bottom: 10px;
+}
+
+.click-color-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.color-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.click-color {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.picker-swich {
+  padding: 10px;
+  background: #fff;
+  border-radius: 1px;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.picker-current-color {
+  width: 100px;
+  height: 20px;
+  border-radius: 2px;
+}
+
+.profile-container img {
+  max-width: 100%;
+  max-height: 500px;
+  margin-bottom: 20px;
+}
+
+.profile-wrap {
+  padding-right: 150px;
+}
+
+.submit-btn-container {
+  width: 100px;
+  position: fixed;
+  bottom: 50px;
+}
+
+.card-color-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.card-color {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
