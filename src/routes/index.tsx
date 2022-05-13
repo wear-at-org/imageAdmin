@@ -5,7 +5,7 @@ import Detail from '../screen/detail';
 export const AppRoutes = () => {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="/imageAdmin">
         <Routes>
           <Route path="/" element={<App />} />
           <Route path="/detail" element={<Detail />} />
